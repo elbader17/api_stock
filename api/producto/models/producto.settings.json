@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "name": "producto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "cdb": {
+      "type": "biginteger"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "stocks": {
+      "via": "productos",
+      "collection": "stock"
+    },
+    "caracteristicas": {
+      "via": "producto",
+      "collection": "caracteristicas"
+    }
+  }
+}

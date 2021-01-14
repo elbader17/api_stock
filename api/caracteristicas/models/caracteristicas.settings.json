@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "caracteristicas",
+  "info": {
+    "name": "caracteristicas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nombre_Caracteristica": {
+      "type": "string"
+    },
+    "Descripcion_Caracteristica": {
+      "type": "text"
+    },
+    "producto": {
+      "model": "producto",
+      "via": "caracteristicas"
+    }
+  }
+}
