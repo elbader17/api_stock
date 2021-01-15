@@ -2,7 +2,7 @@
 
 ## Data Base
 
-![enter image description here](https://photos.app.goo.gl/Hsw2yMgCPzffRb7BA)
+![enter image description here](db_image.png)
 
 
     
