@@ -57,20 +57,6 @@ The API will run at `http://localhost:1337/`
 
 **update**  **PUT**: /stock/:id
 
----
-**STOCK**:
-
-**count**  **GET**: /stock/count
-
-**create**  **POST**:/stock
-
-**delete**  **DELETE**:/stock/:id
-
-**find**  **GET**:/stock
-
-**findone**  **GET**:/stock/:id
-
-**update**  **PUT**: /stock/:id
 
 ---
 **USUARIO**:
